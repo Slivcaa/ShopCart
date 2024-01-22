@@ -515,8 +515,10 @@
                 }
                 .social-icons {
                     li {
+
                         a {
                             @include border-radius(3px);
+        
                         }
                     }
                 }

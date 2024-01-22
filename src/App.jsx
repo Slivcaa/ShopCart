@@ -1,13 +1,16 @@
-import './App.css'
+import { Outlet } from 'react-router-dom';
+import './App.css';
+import NavItems from './components/NavItems';
+import Footer from './components/Footer';
 
 function App() {
- 
-
-  return (
-    <>
-      <h1>hello</h1>
-    </>
-  )
+	return (
+		<>
+			<NavItems />
+			<Outlet />
+			<Footer />
+		</>
+	);
 }
 
-export default App
+export default App;
